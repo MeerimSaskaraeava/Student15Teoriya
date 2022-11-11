@@ -39,10 +39,10 @@ public class Main {
     }
     public static void getAgeStudent(LocalDate current, Student[] students1, Student[] students2){
         for (Student student : students1) {
-            System.out.println("\u001B[34mStudent age: "+ChronoUnit.YEARS.between(student.getDataOfBirds(),current)+"\u001B[0m");
+            System.out.print("\u001B[34mStudent age: "+ChronoUnit.YEARS.between(student.getDataOfBirds(),current)+"\u001B[0m ");
             System.out.println(student);}
     for (Student student : students2) {
-        System.out.println("\u001B[34mStudent age: "+ChronoUnit.YEARS.between(student.getDataOfBirds(),current)+"\u001B[0m");
+        System.out.print("\u001B[34mStudent age: "+ChronoUnit.YEARS.between(student.getDataOfBirds(),current)+"\u001B[0m ");
         System.out.println(student);}
 }
 }
